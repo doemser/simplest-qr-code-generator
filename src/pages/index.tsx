@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 const QRCode = dynamic(() => import("react-qr-code"), { ssr: false });
 
 export default function Home() {
-  const [url, setUrl] = useState("https://doemser.de");
+  const [url, setUrl] = useState("https://github.com/doemser");
 
   const downloadSVG = () => {
     const container = document.getElementById("qr-code-container");
