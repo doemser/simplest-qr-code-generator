@@ -84,7 +84,7 @@ export default function Home() {
         >
           Download SVG
         </button>
-        <p>With ❤ from Domi für Jannik</p>
+        <p>With ❤ from Domi for Jannik</p>
       </div>
     </>
   );
